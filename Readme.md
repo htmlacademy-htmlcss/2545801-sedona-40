@@ -2,7 +2,7 @@
 
 * Студент: [Pavel Kuznetsov](https://up.htmlacademy.ru/htmlcss/40/user/2545801).
 * Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
-* Проект: [Проект](https://somatyx.github.io/2545801-sedona-40/).
+* Проект: [Sedona](https://somatyx.github.io/2545801-sedona-40/).
 
 ---
 
