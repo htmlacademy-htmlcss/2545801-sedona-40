@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Гостиницы Седоны</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -53,7 +54,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
+            <a class="navigation-link button" href="#">
               Хочу сюда!
             </a>
           </li>
@@ -218,7 +219,8 @@
 
           <li class="search-result-card">
             <a class="search-result-card-link" href="#">
-              <img class="search-result-card-image" src="images/content/catalog/amara-resort-and-spa.jpg" width="300" height="212" alt="Каньон ночью">
+              <img class="search-result-card-image" src="images/content/catalog/amara-resort-and-spa.jpg" width="300"
+                height="212" alt="Каньон ночью">
             </a>
             <h3 class="search-result-card-title">
               Amara Resort & Spa
@@ -229,7 +231,7 @@
             <p class="search-result-card-price">
               От 4000 ₽
             </p>
-            <a class="show-more" href="#">
+            <a class="button show-more" href="#">
               Подробнее
             </a>
             <button class="button favorites" type="button">
@@ -250,7 +252,8 @@
 
           <li class="search-result-card">
             <a class="search-result-card-link" href="#">
-              <img class="search-result-card-image" src="images/content/catalog/villas-at-poco-diablo.jpg" width="300" height="212" alt="Каньон утром">
+              <img class="search-result-card-image" src="images/content/catalog/villas-at-poco-diablo.jpg" width="300"
+                height="212" alt="Каньон утром">
             </a>
             <h3 class="search-result-card-title">
               Villas at Poco Diablo
@@ -261,7 +264,7 @@
             <p class="search-result-card-price">
               От 5000 ₽
             </p>
-            <a class="show-more" href="#">
+            <a class="button show-more" href="#">
               Подробнее
             </a>
             <button class="button favorites" type="button">
@@ -282,7 +285,8 @@
 
           <li class="search-result-card">
             <a class="search-result-card-link" href="#">
-              <img class="search-result-card-image" src="images/content/catalog/desert-quail-inn.jpg" width="300" height="212" alt="Каньон днем">
+              <img class="search-result-card-image" src="images/content/catalog/desert-quail-inn.jpg" width="300"
+                height="212" alt="Каньон днем">
             </a>
             <h3 class="search-result-card-title">
               Desert Quail Inn
@@ -293,7 +297,7 @@
             <p class="search-result-card-price">
               От 2500 ₽
             </p>
-            <a class="show-more" href="#">
+            <a class="button show-more" href="#">
               Подробнее
             </a>
             <button class="button favorites" type="button">
@@ -314,7 +318,8 @@
 
           <li class="search-result-card">
             <a class="search-result-card-link" href="#">
-              <img class="search-result-card-image" src="images/content/catalog/greentree-inn.jpg" width="300" height="212" alt="Каньон вечером">
+              <img class="search-result-card-image" src="images/content/catalog/greentree-inn.jpg" width="300"
+                height="212" alt="Каньон вечером">
             </a>
             <h3 class="search-result-card-title">
               GreenTree Inn
@@ -325,7 +330,7 @@
             <p class="search-result-card-price">
               От 1500 ₽
             </p>
-            <a class="show-more" href="#">
+            <a class="button show-more" href="#">
               Подробнее
             </a>
             <button class="button favorites" type="button">
@@ -381,18 +386,6 @@
 
       </section>
 
-      <section class="booking">
-        <h2 class="section-title">
-          Заинтересовались?
-        </h2>
-        <p class="section-description">
-          Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне
-        </p>
-        <button class="button" type="button">
-          Поиск гостиницы в Cедоне
-        </button>
-      </section>
-
       <section class="subscription" data-test="subscribe">
 
         <label for="subscription-form-email">
@@ -407,7 +400,7 @@
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="field" type="email" id="subscription-form-email" name="subscription-form-email"
             placeholder="Ваш e-mail" required>
-          <button class="button" type="submit">
+          <button class="button button-big" type="submit">
             Подписаться
           </button>
         </form>

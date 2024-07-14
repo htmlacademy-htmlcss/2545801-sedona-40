@@ -1,0 +1,251 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(51, 51, 51, 1);
+  background-color: rgb(255, 255, 255);
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color:rgb(255, 255, 255);
+  background-color: rgb(117, 97, 87);
+}
+
+.button-big {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.hero {
+  color: rgb(255, 255, 255);
+  background-color: rgba(131, 179, 211, 0.6);
+  background-image: url("../images/background/background-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.section-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.section-description {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.advantages-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:first-child, .advantages-item:last-child {
+  color: rgb(255, 255, 255);
+  background-color: rgb(130, 179, 211);
+}
+
+.advantages-item:first-child .advantages-title {
+  color: rgb(255, 255, 255);
+}
+
+.advantages-item:last-child .advantages-title {
+  color: rgb(255, 255, 255);
+}
+
+.advantages-item:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.advantages-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.services-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.services-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color:rgb(0, 0, 0);
+}
+
+.services-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.subscription-form .button {
+  background-color: rgba(130, 179, 211);
+}
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+.catalog-page-top-wrapper {
+  color: rgb(255, 255, 255);
+  background-color: rgba(131, 179, 211, 0.6);
+  background-image: url("../images/background/background-catalog-search.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.filter-item {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.filter-price-control {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-filter .button {
+  background-color: rgba(130, 179, 211);
+}
+
+.catalog-filter .button-reset {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.search-result-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.search-result-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.search-result-card-type {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.search-result-card-price {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.favorites {
+  background-color: rgb(130, 179, 211);
+}
+
+.search-result-card-rating {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  background-color: rgb(242, 242, 242);
+  text-transform: uppercase;
+}
+
+.pagination-link {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgb(130, 179, 211);
+}
+
+.pagination-current {
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 242, 242);
+}
