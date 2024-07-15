@@ -15,11 +15,43 @@
 }
 
 body {
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: rgba(51, 51, 51, 1);
+  background-color: rgb(242, 242, 242);
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.page-wrapper {
+  width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(255, 255, 255);
+}
+
+.navigation {
+  width: 1060px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.navigation-list {
+  width: 600px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-user {
+  width: 300px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -74,8 +106,26 @@ body {
   text-align: center;
 }
 
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .advantages-item {
+  width: 400px;
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-big {
+  width: 1200px;
+  display: flex;
+}
+
+.advantages-item:last-child .advantages-image {
+  order: -1;
 }
 
 .advantages-item:first-child, .advantages-item:last-child {
@@ -111,6 +161,13 @@ body {
   text-align: center;
 }
 
+.services-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .services-item {
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -135,8 +192,28 @@ body {
   text-align: center;
 }
 
+.subscription-index {
+  background-image: url(../images/background/background-subscribe.jpg);
+  color: rgb(255, 255, 255);
+}
+
+.subscription-index .section-title {
+  color: rgb(255, 255, 255);
+}
+
 .subscription-form .button {
   background-color: rgba(130, 179, 211);
+}
+
+.main-footer {
+  width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-list {
+  list-style: none;
 }
 
 .footer-phone {
@@ -150,11 +227,11 @@ body {
 }
 
 .catalog-page-top-wrapper {
-  color: rgb(255, 255, 255);
-  background-color: rgba(131, 179, 211, 0.6);
   background-image: url("../images/background/background-catalog-search.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  background-color: rgba(131, 179, 211, 0.6);
 }
 
 .inner-header-title {
