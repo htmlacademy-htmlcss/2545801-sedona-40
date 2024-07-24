@@ -67,12 +67,13 @@
                 </span>
               </a>
             </li>
-            <li class="navigation-item-user">
-              <a class="button navigation-item-button" href="#">
-                Хочу сюда!
-              </a>
-            </li>
           </ul>
+
+          <div class="navigation-user-button-wrapper">
+            <a class="button navigation-user-button" href="#">
+              Хочу сюда!
+            </a>
+          </div>
 
         </nav>
 
@@ -208,7 +209,7 @@
               </fieldset>
 
               <div class="filter-buttons-wrapper">
-                <button class="button button-second" type="submit">
+                <button class="button button-second button-accept" type="submit">
                   Применить
                 </button>
                 <button class="button button-second button-reset" type="reset">
@@ -232,14 +233,16 @@
               </span>
             </h2>
 
-            <select class="select-control" aria-label="Сортировка">
-              <option value="cheap">
-                Сначала дешевые
-              </option>
-              <option value="expensive">
-                Сначала дорогие
-              </option>
-            </select>
+            <div class="select-control-wrapper">
+              <select class="select-control" aria-label="Сортировка">
+                <option value="cheap">
+                  Сначала дешевые
+                </option>
+                <option value="expensive">
+                  Сначала дорогие
+                </option>
+              </select>
+            </div>
 
             <div class="view-type-wrapper">
               <a class="view-type view-type-current" href="catalog.html?view=tile">
